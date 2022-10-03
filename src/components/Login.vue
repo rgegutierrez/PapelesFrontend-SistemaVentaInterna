@@ -68,7 +68,7 @@ export default {
     name: 'Login',
     data: () => ({
         year: new Date().getFullYear(),
-        toggle: false,
+        toggle: true,
         valid: true,
         rut: '',
         rutReadOnly: false,

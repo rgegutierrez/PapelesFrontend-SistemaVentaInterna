@@ -10,7 +10,7 @@ v-layout(class="fill-height")
             v-menu(v-model='menu' :close-on-content-click='false' location='end')
                 template(v-slot:activator='{ props }')
                     v-btn(height='auto' v-bind='props')
-                        v-icon mdi-account
+                        v-icon.hidden-md-and-up mdi-account
                         v-row.hidden-sm-and-down
                             v-col(cols="12").pa-0
                                 span
